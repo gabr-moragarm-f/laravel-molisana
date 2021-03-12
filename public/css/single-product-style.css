@@ -2,9 +2,13 @@ main {
   background-color: #B8DAE4;
   padding: 30px;
 }
+main .container {
+  position: relative;
+}
 main .container h2 {
   color: #002D75;
   margin: 15px 0;
+  text-align: center;
 }
 main .container .first-img,
 main .container .second-img {
@@ -16,4 +20,14 @@ main .container .second-img img {
 }
 main .container .description {
   color: #002D75;
+}
+main .container .prev-button,
+main .container .next-button {
+  color: #002D75;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+}
+main .container .next-button {
+  right: 0;
 }

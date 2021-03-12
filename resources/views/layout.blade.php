@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Molisana @yield('title')</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
   <link rel="stylesheet" href="{{asset('css/layout-style.css')}}">
   @yield('mainStyle')
 </head>
@@ -105,7 +106,7 @@
               <li>Le Persone</li>
             </ul>
           </div>
-          
+
           <div>
             <h3>COLLEZIONE DA CHEF</h3>
 

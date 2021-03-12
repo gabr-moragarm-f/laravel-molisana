@@ -3,9 +3,12 @@ main{
   padding: 30px;
 
   .container{
+    position: relative;
+    
     h2{
       color: #002D75;
       margin: 15px 0;
+      text-align: center;
     }
 
     .first-img,
@@ -19,6 +22,18 @@ main{
 
     .description{
       color: #002D75;
+    }
+
+    .prev-button,
+    .next-button{
+      color: #002D75;
+      font-size: 100px;
+      position: absolute;
+      top: 50%;
+    }
+
+    .next-button{
+      right: 0;
     }
   }
 }
