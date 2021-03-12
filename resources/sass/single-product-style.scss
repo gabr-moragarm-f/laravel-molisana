@@ -1,0 +1,24 @@
+main{
+  background-color: #B8DAE4;
+  padding: 30px;
+
+  .container{
+    h2{
+      color: #002D75;
+      margin: 15px 0;
+    }
+
+    .first-img,
+    .second-img{
+      width: 100%;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .description{
+      color: #002D75;
+    }
+  }
+}

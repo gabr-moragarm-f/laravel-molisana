@@ -1,0 +1,19 @@
+main {
+  background-color: #B8DAE4;
+  padding: 30px;
+}
+main .container h2 {
+  color: #002D75;
+  margin: 15px 0;
+}
+main .container .first-img,
+main .container .second-img {
+  width: 100%;
+}
+main .container .first-img img,
+main .container .second-img img {
+  width: 100%;
+}
+main .container .description {
+  color: #002D75;
+}

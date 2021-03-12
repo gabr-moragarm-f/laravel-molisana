@@ -19054,6 +19054,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/single-product-style.scss":
+/*!**************************************************!*\
+  !*** ./resources/sass/single-product-style.scss ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
 /***/ "./resources/sass/layout-style.scss":
 /*!******************************************!*\
   !*** ./resources/sass/layout-style.scss ***!
@@ -19347,6 +19360,7 @@ process.umask = function() { return 0; };
 /******/ 		var deferredModules = [
 /******/ 			["./resources/js/app.js"],
 /******/ 			["./resources/sass/products-style.scss"],
+/******/ 			["./resources/sass/single-product-style.scss"],
 /******/ 			["./resources/sass/layout-style.scss"]
 /******/ 		];
 /******/ 		// no chunk on demand loading

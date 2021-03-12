@@ -2,6 +2,10 @@
 
 @section('title', $arrayPasta[$idProduct]['titolo'])
 
+@section('mainStyle')
+  <link rel="stylesheet" href="{{asset('css/single-product-style.css')}}">
+@endsection
+
 @section('main')
   <main>
     <div class="container">
